@@ -43,5 +43,4 @@ This webpage serves as a personal achievement portfolio that I have shared with 
 
 ### 👨‍💻 Developer
 **Haq Nawaz**  
-Student of Software Engineering (23rd Batch)  
-QUEST Nawabshah | PITP Trainee - Sukkur IBA University
+PITP Trainee - Web Development (Phase 1)
