@@ -1,0 +1,98 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  text-align: center;
+}
+
+.top-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 90px;
+}
+
+.center-logo {
+  height: 110px;
+}
+
+.header-text {
+  background-color: #fdd835;
+  padding: 15px 10px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.header-text h2 {
+  margin: 5px 0 0 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+main {
+  padding: 40px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  border: 3px solid #fdd835;
+  object-fit: cover;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.info p {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+.achievement {
+  margin-top: 30px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
