@@ -1,13 +1,53 @@
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
   color: #000;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.logo-text {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo-text span {
+  color: #fdd835;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #fdd835;
 }
 
 header {
   text-align: center;
+  margin-top: 0;
 }
 
 .top-logos {
@@ -37,7 +77,6 @@ header {
   margin: 0;
   font-size: 36px;
   font-weight: 800;
-  letter-spacing: 1px;
 }
 
 .header-text h2 {
@@ -46,8 +85,8 @@ header {
   font-weight: 600;
 }
 
-main {
-  padding: 40px;
+.about {
+  padding: 40px 10%;
 }
 
 .profile-section {
@@ -55,6 +94,8 @@ main {
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
 }
 
 .profile-pic {
@@ -66,7 +107,6 @@ main {
 }
 
 .info h2 {
-  margin: 0;
   font-size: 26px;
   font-weight: bold;
   color: #003366;
@@ -78,21 +118,69 @@ main {
 }
 
 .achievement {
-  margin-top: 30px;
+  margin-top: 25px;
   line-height: 1.6;
   font-size: 18px;
+}
+
+.projects {
+  padding: 60px 10%;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.projects h2 {
+  color: #003366;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #fdd835;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 250px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: #fdd835;
+  color: #003366;
+  transform: scale(1.05);
 }
 
 footer {
   background-color: #003366;
   color: white;
   text-align: center;
-  padding: 15px;
-  font-size: 16px;
-  margin-top: 40px;
+  padding: 25px 20px;
 }
 
 footer a {
-  color: #fff;
+  color: #fdd835;
+  text-decoration: none;
+}
+
+footer a:hover {
   text-decoration: underline;
+}
+
+.footer-note {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
 }
