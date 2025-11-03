@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PITP Student Achievement - Haq Nawaz</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7dc30126d7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <header>
+  
+  <nav class="navbar">
+    <div class="logo-text">Haq <span>Nawaz</span></div>
+    <ul class="nav-links">
+      <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <header id="home">
     <div class="top-logos">
-      <img src="Sukkar-IBA-Logo.jfif" alt="IBA Logo" class="logo left-logo">
-      <img src="PITP.png" alt="PITP Logo" class="logo center-logo">
-      <img src="sindh.jfif" alt="Sindh Logo" class="logo right-logo">
+      <img src="sindh.jfif" alt="Sindh Logo" class="logo left-logo" />
+      <img src="PITP.png" alt="PITP Logo" class="logo center-logo" />
+      <img src="Sukkar-IBA-Logo.jfif" alt="IBA Logo" class="logo right-logo" />
     </div>
 
     <div class="header-text">
@@ -20,52 +37,69 @@
     </div>
   </header>
 
-  <main>
+  
+  <section id="about" class="about">
     <div class="profile-section">
-      <img src="haq.jfif" alt="Haq Nawaz" class="profile-pic">
+      <img src="haq.jfif" alt="Haq Nawaz" class="profile-pic" />
       <div class="info">
         <h2>Haq Nawaz</h2>
         <p><strong>Course:</strong> Web Development</p>
         <p><strong>Batch:</strong> PITP Phase - 1</p>
         <p><strong>Training Center:</strong> QUEST Nawabshah</p>
-        <p><strong>Institute:</strong> Sukkur IBA University</p>
         <p><strong>Initiative:</strong> Government of Sindh</p>
       </div>
     </div>
 
     <div class="achievement">
       <p>
-        I am a dedicated student of PITP Phase 1 under the initiative of the Government of Sindh
-        and Sukkur IBA University. I have successfully completed the Web Development short course
-        conducted at <strong>QUEST Nawabshah</strong>.
+        I am a dedicated student of <strong>PITP Phase 1</strong> under the initiative of the
+        <strong>Government of Sindh</strong>. I have successfully completed the
+        <strong>Web Development short course</strong> conducted at <strong>QUEST Nawabshah</strong>.
       </p>
       <p>
-        During this phase, I learned HTML, CSS, JavaScript, PHP, and Database Management.
-        I am currently working on the <strong>“Sidra Chain”</strong> project and another
+        During this phase, I learned <strong>HTML, CSS, JavaScript, PHP,</strong> and
+        <strong>Database Management</strong>. I am currently working on the
+        <strong>“Sidra Chain”</strong> project and another
         <strong>Civil Engineering Estimator</strong> tool that calculates construction costs
         based on area input. This journey reflects my passion, dedication, and the success of
         the PITP initiative in empowering youth with digital skills.
       </p>
       <p>
-        Along with this, I have created several web projects including a <strong>Web Resume</strong>,
-        <strong>Page Resume</strong>, <strong>Weather App</strong>, <strong>Calculator App</strong>,
-        <strong>Text-to-Speech App</strong>, <strong>To-Do App</strong>, <strong>CSS Landing Page</strong>,
-        and a <strong>Portfolio Website</strong>.
+        Along with this, I have created several web projects including a
+        <strong>Web Resume</strong>, <strong>Page Resume</strong>, <strong>Weather App</strong>,
+        <strong>Calculator App</strong>, <strong>Text-to-Speech App</strong>,
+        <strong>To-Do App</strong>, <strong>CSS Landing Page</strong>, and a
+        <strong>Portfolio Website</strong>.
       </p>
       <p>
-        I have shared this webpage with my Web Development class and the IBA team to showcase my
-        learning journey and achievements during PITP Phase 1.
+        I have shared this webpage with my Web Development class and the PITP team to showcase
+        my learning journey and achievements during <strong>PITP Phase 1</strong>.
       </p>
     </div>
-  </main>
+  </section>
 
-  <footer>
+  
+  <section id="projects" class="projects">
+    <h2><i class="fas fa-code"></i> My Projects</h2>
+    <div class="project-grid">
+      <a href="https://haqnawaz-weather-app.netlify.app" target="_blank" class="card">🌦️ Weather App</a>
+      <a href="https://haqnawaz-todo-app.netlify.app" target="_blank" class="card">📝 To-Do App</a>
+      <a href="https://haqnawaz-text-to-speech.netlify.app" target="_blank" class="card">🗣️ Text-to-Speech App</a>
+      <a href="https://haqnawaz-resume-page.netlify.app" target="_blank" class="card">📄 Page Resume</a>
+      <a href="https://haqnawaz-resume.netlify.app" target="_blank" class="card">💼 Web Resume</a>
+      <a href="https://haqnawaz-calculator.netlify.app" target="_blank" class="card">🧮 Calculator App</a>
+      <a href="https://haqnawaz-css-landing-page.netlify.app" target="_blank" class="card">🌐 CSS Landing Page</a>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+    <p>📧 <a href="mailto:haqnawazbjr@gmail.com">haqnawazbjr@gmail.com</a> | 📞 03030848882</p>
     <p>
-      🌐 <a href="https://github.com/haqnawaz82" target="_blank">github.com/haqnawaz82</a> |
-      🔗 <a href="https://app.netlify.com/teams/haqnawaz82" target="_blank">Netlify Profile</a> |
-      📧 haqnawazbjr@gmail.com |
-      📞 03030848882
+      🌐 <a href="https://github.com/haqnawaz82" target="_blank">GitHub</a> |
+      🔗 <a href="https://app.netlify.com/teams/haqnawaz82/projects" target="_blank">Netlify Profile</a>
     </p>
+    <p class="footer-note">© 2025 Haq Nawaz | PITP Phase - 1 | All Rights Reserved</p>
   </footer>
 </body>
 </html>
